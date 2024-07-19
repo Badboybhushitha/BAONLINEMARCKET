@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.icon.home-icon {
+    font-size: 1.5rem;
+}
+
+.main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.home-content {
+    text-align: center;
+}
+
+.home-content .logo {
+    width: 200px;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-item {
+    background-color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sell-content, .contact-content, .rating-content, .complaint-content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.sell-form label, .complaint-content label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.sell-form input, .sell-form textarea, .complaint-content textarea {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.product-list .remove-btn {
+    background-color: #dc3545;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer .social-media {
+    margin-bottom: 0.5rem;
+}
+
+.footer .social-media a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+}
